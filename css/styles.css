@@ -191,11 +191,13 @@ img {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
-  block-size: cover;
   padding: 188px 0;
   text-align: center;
 }
-
+.conteiner-baner {
+  display: flex;
+  flex-direction: column;
+}
 
 
 .top-title {
@@ -290,10 +292,18 @@ margin-bottom: 8px;
   background: #f4f4fd;
   padding: 120px 0;
 }
+.team-wraper {
+  display: flex;
+  flex-direction: column;
+  
+}
 
 .team-title {
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
 .team-card-list {
@@ -312,7 +322,7 @@ border-radius: 0 0 4px 4px;
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .conteiner-card-user {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .team-card-name {
@@ -363,9 +373,15 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .portfolio {
   padding: 120px 0;
 }
+.wrap-portfolio {
+  display: flex;
+  flex-direction: column;
+}
 .portfolio-title{
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .portfolio-list {
@@ -428,6 +444,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
   display: flex;
   align-items: baseline
 
+}
+.footer-description {
+  width: 264px;
 }
 .footer-logo {
   display: inline-block;
